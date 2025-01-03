@@ -166,7 +166,7 @@ const Nav = () => {
         </nav>
       </div>
 
-      <div className="fixed top-0 left-0 w-full mix-blend-difference backdrop-blur-lg z-50">
+      <div className="fixed top-0 left-0 w-full mix-blend-difference backdrop-blur-lg z-40">
         <div className="container max-w-none lg:max-w-[1660px] lg:mx-auto">
           <div className="flex h-20 items-center justify-between w-full">
             <div className="logo mix-blend-difference">
@@ -178,7 +178,7 @@ const Nav = () => {
         </div>
       </div>
 
-      <div className="fixed top-0 left-0 w-full z-50">
+      <div className="fixed top-0 left-0 w-full z-40">
         <div className="container max-w-none lg:max-w-[1660px] lg:mx-auto">
           <div className="flex h-20 items-center justify-end w-full">
             <div className="menu flex gap-4">

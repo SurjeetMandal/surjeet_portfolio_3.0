@@ -54,7 +54,7 @@ const Header = () => {
     <motion.div
       initial={{opacity: 0, y:200}}
       animate={{opacity: 1, y:0}}
-      transition={{delay: 2.2, duration:0.8}}
+      transition={{delay: 2.1, duration:0.8}}
     >
       <div className="grid md:grid-cols-12 md:h-screen items-stretch sticky top-0 lg:max-w-[1660px] lg:mx-auto" id="home">
         <div className="md:col-span-7 flex flex-col justify-center">

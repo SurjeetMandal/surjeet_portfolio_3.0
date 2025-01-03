@@ -23,7 +23,7 @@ const LoadingScreen = () => {
       {/* Loading screen */}
       {loading && (
         <motion.div
-          className={`fixed inset-0 bg-black flex flex-col justify-center items-center z-60`}
+          className={`fixed inset-0 bg-black flex flex-col justify-center items-center z-50`}
           initial={{ opacity: 1 }}
           animate={{ opacity: loadingComplete ? 0 : 1 }}
           transition={{ duration: 0.3, ease: "easeInOut" }}
