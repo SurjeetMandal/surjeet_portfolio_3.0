@@ -126,7 +126,7 @@ const Nav = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "public/Surjeet Resum 2.0.pdf"; // Replace with your file URL
+    link.href = "/Surjeet Resum 2.0.pdf"; // Replace with your file URL
     link.download = "Surjeet Resum 2.0.pdf"; // Replace with the desired file name
     link.click();
   };
