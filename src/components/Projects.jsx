@@ -1,61 +1,64 @@
 import { useContext } from "react";
-import img1 from "../assets/dark-saas-landing-page.png";
+import img1 from "../assets/Untitled design.png";
 import { AppContext } from "../context/AppContext";
 
 const projects = [
   {
-    name: "Hard Saas Landing Page",
+    name: "Quizopia",
     img: img1,
-    details: `<span class="colorPara">A <span class="medium">web app</span> designed to track daily expenses and 
-              <span class="medium">manage finances</span> with an intuitive interface and 
-              <span class="medium">graphical insights</span>. Users can <span class="medium">add, 
-              edit, and delete</span> transactions with <span class="medium">category filters</span>, and the app ensures 
-              <span class="medium">data persistence</span> using <span class="medium">Firebase storage</span> for seamless tracking.
+    details: `<span class="colorPara">A <span class="medium">quiz app</span> designed to make learning interactive and fun, 
+              featuring an <span class="medium">engaging UI</span> crafted with the 60-30-10 color rule. The app 
+              uses <span class="medium">educational themes</span> and exciting fonts to captivate children. Users can 
+              <span class="medium">attempt quizzes</span> on various topics, with features to <span class="medium">review answers</span> and track 
+              performance. The app ensures <span class="medium">smooth functionality</span> with JavaScript logic and 
+              <span class="medium">modern design elements</span>, creating an enjoyable learning experience.
               </span>`,
     techStack: ["HTML", "CSS", "JavaScript", "FramerMotion"],
     gitLink: "https://github.com/SurjeetMandal/QuizApp-surjeet",
     liveLink: "https://surjeet-quizapp.netlify.app/",
   },
   {
-    name: "Hard Saas Landing Page",
+    name: "Quizopia",
     img: img1,
-    details: `<span class="colorPara">A <span class="medium">web app</span> designed to track daily expenses and 
-              <span class="medium">manage finances</span> with an intuitive interface and 
-              <span class="medium">graphical insights</span>. Users can <span class="medium">add</span>, 
-              edit, and delete transactions with <span class="medium">category filters</span>, and the app ensures 
-              <span class="medium">data persistence</span> using <span class="medium">Firebase storage</span> for seamless tracking.
+    details: `<span class="colorPara">A <span class="medium">quiz app</span> designed to make learning interactive and fun, 
+              featuring an <span class="medium">engaging UI</span> crafted with the 60-30-10 color rule. The app 
+              uses <span class="medium">educational themes</span> and exciting fonts to captivate children. Users can 
+              <span class="medium">attempt quizzes</span> on various topics, with features to <span class="medium">review answers</span> and track 
+              performance. The app ensures <span class="medium">smooth functionality</span> with JavaScript logic and 
+              <span class="medium">modern design elements</span>, creating an enjoyable learning experience.
               </span>`,
     techStack: ["HTML", "CSS", "JavaScript", "FramerMotion"],
     gitLink: "https://github.com/SurjeetMandal/QuizApp-surjeet",
     liveLink: "https://surjeet-quizapp.netlify.app/",
   },
   {
-    name: "Hard Saas Landing Page",
+    name: "Quizopia",
     img: img1,
-    details: `<span class="colorPara">A <span class="medium">web app</span> designed to track daily expenses and 
-              <span class="medium">manage finances</span> with an intuitive interface and 
-              <span class="medium">graphical insights</span>. Users can <span class="medium">add</span>, 
-              edit, and delete transactions with <span class="medium">category filters</span>, and the app ensures 
-              <span class="medium">data persistence</span> using <span class="medium">Firebase storage</span> for seamless tracking.
+    details: `<span class="colorPara">A <span class="medium">quiz app</span> designed to make learning interactive and fun, 
+              featuring an <span class="medium">engaging UI</span> crafted with the 60-30-10 color rule. The app 
+              uses <span class="medium">educational themes</span> and exciting fonts to captivate children. Users can 
+              <span class="medium">attempt quizzes</span> on various topics, with features to <span class="medium">review answers</span> and track 
+              performance. The app ensures <span class="medium">smooth functionality</span> with JavaScript logic and 
+              <span class="medium">modern design elements</span>, creating an enjoyable learning experience.
               </span>`,
     techStack: ["HTML", "CSS", "JavaScript", "FramerMotion"],
     gitLink: "https://github.com/SurjeetMandal/QuizApp-surjeet",
     liveLink: "https://surjeet-quizapp.netlify.app/",
   },
   {
-    name: "Hard Saas Landing Page",
+    name: "Quizopia",
     img: img1,
-    details: `<span class="colorPara">A <span class="medium">web app</span> designed to track daily expenses and 
-              <span class="medium">manage finances</span> with an intuitive interface and 
-              <span class="medium">graphical insights</span>. Users can <span class="medium">add</span>, 
-              edit, and delete transactions with <span class="medium">category filters</span>, and the app ensures 
-              <span class="medium">data persistence</span> using <span class="medium">Firebase storage</span> for seamless tracking.
+    details: `<span class="colorPara">A <span class="medium">quiz app</span> designed to make learning interactive and fun, 
+              featuring an <span class="medium">engaging UI</span> crafted with the 60-30-10 color rule. The app 
+              uses <span class="medium">educational themes</span> and exciting fonts to captivate children. Users can 
+              <span class="medium">attempt quizzes</span> on various topics, with features to <span class="medium">review answers</span> and track 
+              performance. The app ensures <span class="medium">smooth functionality</span> with JavaScript logic and 
+              <span class="medium">modern design elements</span>, creating an enjoyable learning experience.
               </span>`,
     techStack: ["HTML", "CSS", "JavaScript", "FramerMotion"],
     gitLink: "https://github.com/SurjeetMandal/QuizApp-surjeet",
     liveLink: "https://surjeet-quizapp.netlify.app/",
   },
- 
 ];
 
 const Projects = () => {
@@ -78,7 +81,7 @@ const Projects = () => {
               hover:bg-stone-300 duration-500 transition-all group/sss"
             >
               <div className="aspect-video md:hidden">
-                <img src={item.img} alt="" className="size-full object-cover" />
+                <img src={item.img} alt="" className="size-full object-cover rounded-lg" />
               </div>
 
               <div onClick={()=>{handleModal(); setProjectData(item);}} className="relative
@@ -89,7 +92,7 @@ const Projects = () => {
                   w-full absolute opacity-0 scale-0 group-hover/sss:opacity-100 lg:group-hover/sss:scale-[20%]
                   md:group-hover/sss:scale-[30%] z-10 transition-all duration-500">
                 <div className="w-full">
-                  <img src={item.img} alt="" className="size-full object-cover group-hover/sss:px-4"/>
+                  <img src={item.img} alt="" className="size-full group-hover/sss:px-4"/>
                 </div>
               </div>
         
