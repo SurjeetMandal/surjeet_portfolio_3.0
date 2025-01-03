@@ -14,7 +14,7 @@ const Intro = () => {
         tagName: "span",
       });
     }
-  }, []);
+  });
 
   useEffect(() => {
     if (view) {
