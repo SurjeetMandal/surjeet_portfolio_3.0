@@ -126,7 +126,7 @@ const Nav = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/public/SurjeetProfessionalCV for web.pdf";
+    link.href = "/SurjeetProfessionalCV for web.pdf";
     link.download = "SurjeetProfessionalCV for web.pdf"; 
     link.click();
   };
