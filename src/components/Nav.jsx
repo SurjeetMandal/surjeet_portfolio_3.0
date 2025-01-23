@@ -126,8 +126,8 @@ const Nav = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Surjeet Resum 2.0.pdf"; // Replace with your file URL
-    link.download = "Surjeet Resum 2.0.pdf"; // Replace with the desired file name
+    link.href = "/public/SurjeetProfessionalCV for web.pdf";
+    link.download = "SurjeetProfessionalCV for web.pdf"; 
     link.click();
   };
 

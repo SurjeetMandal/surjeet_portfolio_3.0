@@ -1,52 +1,47 @@
 import { useContext } from "react";
-import img1 from "../assets/Untitled design.png";
+import img1 from "../assets/Project1.png";
+import img3 from "../assets/Project3-removebg-preview.png";
+import img4 from "../assets/Project4-removebg-preview.png";
+import img5 from "../assets/Project5-removebg-preview.png";
+
 import { AppContext } from "../context/AppContext";
 
 const projects = [
   {
-    name: "Quizopia",
-    img: img1,
-    details: `<span class="colorPara">A <span class="medium">quiz app</span> designed to make learning interactive and fun, 
-              featuring an <span class="medium">engaging UI</span> crafted with the 60-30-10 color rule. The app 
-              uses <span class="medium">educational themes</span> and exciting fonts to captivate children. Users can 
-              <span class="medium">attempt quizzes</span> on various topics, with features to <span class="medium">review answers</span> and track 
-              performance. The app ensures <span class="medium">smooth functionality</span> with JavaScript logic and 
-              <span class="medium">modern design elements</span>, creating an enjoyable learning experience.
+    name: "Fashion | E-Commerce Web App",
+    img: img3,
+    details: `<span class="colorPara">A <span class="medium">dynamic e-commerce web app</span> featuring a vibrant UI designed for fashion enthusiasts. 
+              Includes a customizable <span class="medium">hero section</span>, filter options for easy product navigation, and real-time payment integration with Razorpay. 
+              Built to <span class="medium">enhance user experience</span> through a modern and responsive design, enabling users to explore, shop, and manage their accounts effortlessly.
               </span>`,
-    techStack: ["HTML", "CSS", "JavaScript", "FramerMotion"],
-    gitLink: "https://github.com/SurjeetMandal/QuizApp-surjeet",
-    liveLink: "https://surjeet-quizapp.netlify.app/",
+    techStack: ["HTML", "CSS", "JavaScript", "Razorpay API"],
+    gitLink: "https://github.com/SurjeetMandal/surjeet_simple_ecommerce_cart",
+    liveLink: "https://surjeet-simple-ecommerce-cart-site.netlify.app/",
   },
   {
-    name: "Quizopia",
-    img: img1,
-    details: `<span class="colorPara">A <span class="medium">quiz app</span> designed to make learning interactive and fun, 
-              featuring an <span class="medium">engaging UI</span> crafted with the 60-30-10 color rule. The app 
-              uses <span class="medium">educational themes</span> and exciting fonts to captivate children. Users can 
-              <span class="medium">attempt quizzes</span> on various topics, with features to <span class="medium">review answers</span> and track 
-              performance. The app ensures <span class="medium">smooth functionality</span> with JavaScript logic and 
-              <span class="medium">modern design elements</span>, creating an enjoyable learning experience.
+    name: "Freelancing Project | Portfolio Website",
+    img: img4,
+    details: `<span class="colorPara">A <span class="medium">personal portfolio website</span> built for a freelance client to showcase their projects, skills, and experiences. 
+              Includes a <span class="medium">responsive design</span>, interactive elements, and optimized performance for a professional online presence.
+              Leveraged modern web technologies to deliver a sleek and engaging user experience.
               </span>`,
-    techStack: ["HTML", "CSS", "JavaScript", "FramerMotion"],
-    gitLink: "https://github.com/SurjeetMandal/QuizApp-surjeet",
-    liveLink: "https://surjeet-quizapp.netlify.app/",
+    techStack: ["React","FramerMotion"],
+    liveLink: "https://www.thehypedepartment.com/",
+    gitLink: "empty",
   },
   {
-    name: "Quizopia",
-    img: img1,
-    details: `<span class="colorPara">A <span class="medium">quiz app</span> designed to make learning interactive and fun, 
-              featuring an <span class="medium">engaging UI</span> crafted with the 60-30-10 color rule. The app 
-              uses <span class="medium">educational themes</span> and exciting fonts to captivate children. Users can 
-              <span class="medium">attempt quizzes</span> on various topics, with features to <span class="medium">review answers</span> and track 
-              performance. The app ensures <span class="medium">smooth functionality</span> with JavaScript logic and 
-              <span class="medium">modern design elements</span>, creating an enjoyable learning experience.
+    name: "Static Multi-Page Project",
+    img: img5,
+    details: `<span class="colorPara">A <span class="medium">static multi-page web application</span> built using React. 
+              Designed as a beginner project to explore React's component-based architecture. 
+              Features include a clean UI, navigation across pages, and a focus on modular and reusable components.
               </span>`,
-    techStack: ["HTML", "CSS", "JavaScript", "FramerMotion"],
-    gitLink: "https://github.com/SurjeetMandal/QuizApp-surjeet",
-    liveLink: "https://surjeet-quizapp.netlify.app/",
+    techStack: ["React"],
+    gitLink: "https://github.com/SurjeetMandal/surjeet-frontend1",
+    liveLink: "https://surjeet-frontend1.netlify.app/",
   },
   {
-    name: "Quizopia",
+    name: "Quizopia | A quiz web app",
     img: img1,
     details: `<span class="colorPara">A <span class="medium">quiz app</span> designed to make learning interactive and fun, 
               featuring an <span class="medium">engaging UI</span> crafted with the 60-30-10 color rule. The app 
@@ -55,7 +50,7 @@ const projects = [
               performance. The app ensures <span class="medium">smooth functionality</span> with JavaScript logic and 
               <span class="medium">modern design elements</span>, creating an enjoyable learning experience.
               </span>`,
-    techStack: ["HTML", "CSS", "JavaScript", "FramerMotion"],
+    techStack: ["HTML", "CSS", "JavaScript"],
     gitLink: "https://github.com/SurjeetMandal/QuizApp-surjeet",
     liveLink: "https://surjeet-quizapp.netlify.app/",
   },

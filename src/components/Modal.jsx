@@ -58,9 +58,16 @@ const Modal = () => {
                                             <a href={projectData.liveLink} target="blank">
                                                 <Button primary text_content={"Live Preview"} />
                                             </a>
-                                            <a href={projectData.gitLink} target="blank">
-                                                <Button secondary text_content={"Code Link"} />
-                                            </a>
+                                            {
+                                                projectData.gitLink == "empty" ?
+                                                    <a>
+                                                        <Button secondary text_content={"Not Available"} />
+                                                    </a>
+                                                :
+                                                    <a href={projectData.gitLink} target="blank">
+                                                        <Button secondary text_content={"Code Link"} />
+                                                    </a>
+                                            }
                                         </div>
 
                                         <img onClick={() => setModal(false)} src={close} alt="" className="size-7 self-end m-2 cursor-pointer"/>
