@@ -134,15 +134,15 @@ const Nav = () => {
   return (
     <div>
       <div
-        className="fixed top-0 left-0 w-full h-0 overflow-hidden bg-stone-900 z-30"
+        className="fixed top-0 left-0 w-full h-0 overflow-y-scroll md:overflow-y-hidden overflow-hidden bg-stone-900 z-30"
         ref={navScope}
       >
-        <nav className="mt-20 flex flex-col h-[75vh]" onClick={() => setIsOpen(false)}>
+        <nav className="mt-20 flex flex-col" onClick={() => setIsOpen(false)}>
           {navItems.map(({ lable, href }) => (
             <a
               href={href}
               key={lable}
-              className="text-stone-200 lg:w-[1440px] lg:mx-auto border-t border-stone-800 last:border-b py-8 hover:px-8 transition-all duration-500 hover:bg-stone-800"
+              className="2xl:w-[1660px] 2xl:mx-auto text-stone-200 w-full border-t border-stone-800 last:border-b py-8 hover:px-8 transition-all duration-500 hover:bg-stone-800"
             >
               <div className="container max-w-none flex items-center justify-between">
                 <div className="text-3xl font-light">{lable}</div>
@@ -163,6 +163,12 @@ const Nav = () => {
               </div>
             </a>
           ))}
+          <Button 
+            onClick={handleDownload}
+            primary
+            text_content={"Download CV"}
+            className={"text-2xl mt-8 !py-3 !px-4 !text-center inline-flex mb-8 md:hidden m-3"}
+          />
         </nav>
       </div>
 

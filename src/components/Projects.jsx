@@ -3,53 +3,63 @@ import img1 from "../assets/Project1.png";
 import img3 from "../assets/Project3-removebg-preview.png";
 import img4 from "../assets/Project4-removebg-preview.png";
 import img5 from "../assets/Project5-removebg-preview.png";
+import img6 from "../assets/Project6.png"
 
 import { AppContext } from "../context/AppContext";
 
 const projects = [
   {
-    name: "Fashion | E-Commerce Web App",
+    name: "Trade With Techack | Trading Platform",
+    img: img6,
+    details: `<span class="colorPara">A <span class="medium">comprehensive trading platform</span> designed for an experienced options trading instructor with 3+ years of expertise.  
+              The platform allows users to <span class="medium">purchase online courses</span>, subscribe to <span class="medium">premium Telegram trading channels</span>,  
+              and access <span class="medium">portfolio management services</span>.  
+              Built with several dynamic routes, It features <span class="medium">SEO optimization</span>, a sitemap.xml, robots.txt, and seamless email integration using EmailJS.</span>`,
+    techStack: ["React.js", "Vite", "Framer Motion", "React Toast", "React Icons", "EmailJS", "Tailwind CSS", "Custom CSS"],
+    gitLink: "empty",
+    liveLink: "https://tradewithtechack.com/",
+  },
+  {
+    name: "FashionHub | E-Commerce Web App",
     img: img3,
-    details: `<span class="colorPara">A <span class="medium">dynamic e-commerce web app</span> featuring a vibrant UI designed for fashion enthusiasts. 
-              Includes a customizable <span class="medium">hero section</span>, filter options for easy product navigation, and real-time payment integration with Razorpay. 
-              Built to <span class="medium">enhance user experience</span> through a modern and responsive design, enabling users to explore, shop, and manage their accounts effortlessly.
-              </span>`,
-    techStack: ["HTML", "CSS", "JavaScript", "Razorpay API"],
+    details: `<span class="colorPara>A <span class="medium">modern e-commerce platform</span> designed for fashion enthusiasts,  
+              featuring a <span class="medium">responsive and visually appealing UI</span>.  
+              Integrated with a fake product API, it includes <span class="medium">user authentication</span>,  
+              advanced <span class="medium">product filtering</span>, and secure <span class="medium">Razorpay payment gateway</span>.  
+              Developed using local storage for seamless user experience and based on a free Figma design.</span>`,
+    techStack: ["HTML", "CSS", "JavaScript", "Razorpay API","Fake API"],
     gitLink: "https://github.com/SurjeetMandal/surjeet_simple_ecommerce_cart",
     liveLink: "https://surjeet-simple-ecommerce-cart-site.netlify.app/",
   },
   {
-    name: "Freelancing Project | Portfolio Website",
+    name: "The Hype Department | Freelancer Portfolio",
     img: img4,
-    details: `<span class="colorPara">A <span class="medium">personal portfolio website</span> built for a freelance client to showcase their projects, skills, and experiences. 
-              Includes a <span class="medium">responsive design</span>, interactive elements, and optimized performance for a professional online presence.
-              Leveraged modern web technologies to deliver a sleek and engaging user experience.
-              </span>`,
-    techStack: ["React","FramerMotion"],
-    liveLink: "https://www.thehypedepartment.com/",
+    details: `<span class="colorPara">A <span class="medium">professional portfolio website</span> crafted for a freelancer to showcase their  
+              <span class="medium">projects, skills, and experience</span>.  
+              The site features a <span class="medium">clean, interactive, and animated UI</span>,  
+              ensuring a strong online presence with smooth navigation and engaging visuals.</span>`,
+    techStack: ["React.js", "Framer Motion"],
     gitLink: "empty",
+    liveLink: "https://www.thehypedepartment.com/",
   },
   {
-    name: "Static Multi-Page Project",
+    name: "Finsweet | Static Multi-Page Web App",
     img: img5,
-    details: `<span class="colorPara">A <span class="medium">static multi-page web application</span> built using React. 
-              Designed as a beginner project to explore React's component-based architecture. 
-              Features include a clean UI, navigation across pages, and a focus on modular and reusable components.
-              </span>`,
-    techStack: ["React"],
+    details: `<span class="colorPara">A <span class="medium">static multi-page web application</span> built to explore  
+              <span class="medium">React's component-based architecture</span>.  
+              Designed with a <span class="medium">structured layout</span>, modular components, and smooth navigation,  
+              it offers a beginner-friendly and scalable web experience with a responsive design.</span>`,
+    techStack: ["React.js"],
     gitLink: "https://github.com/SurjeetMandal/surjeet-frontend1",
     liveLink: "https://surjeet-frontend1.netlify.app/",
   },
   {
-    name: "Quizopia | A quiz web app",
+    name: "Quizopia | Interactive Quiz Platform",
     img: img1,
-    details: `<span class="colorPara">A <span class="medium">quiz app</span> designed to make learning interactive and fun, 
-              featuring an <span class="medium">engaging UI</span> crafted with the 60-30-10 color rule. The app 
-              uses <span class="medium">educational themes</span> and exciting fonts to captivate children. Users can 
-              <span class="medium">attempt quizzes</span> on various topics, with features to <span class="medium">review answers</span> and track 
-              performance. The app ensures <span class="medium">smooth functionality</span> with JavaScript logic and 
-              <span class="medium">modern design elements</span>, creating an enjoyable learning experience.
-              </span>`,
+    details: `<span class="colorPara">An <span class="medium">interactive quiz application</span> designed to make learning fun and engaging.  
+              Features include a <span class="medium">visually appealing UI</span> based on the 60-30-10 color rule,  
+              multiple <span class="medium">quiz categories</span>, detailed answer reviews, and  
+              <span class="medium">performance tracking</span> to enhance user engagement and learning outcomes.</span>`,
     techStack: ["HTML", "CSS", "JavaScript"],
     gitLink: "https://github.com/SurjeetMandal/QuizApp-surjeet",
     liveLink: "https://surjeet-quizapp.netlify.app/",

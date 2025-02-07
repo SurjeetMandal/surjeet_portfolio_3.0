@@ -37,12 +37,11 @@ const Intro = () => {
     >
       <div className="container max-w-none">
         <h2
-          className="text-4xl md:text-7xl lg:text-[82px]"
+          className="text-4xl md:text-7xl lg:text-[82px] tracking-tighter"
           style={{ lineHeight: 1.18}}
         >
-          Hi!✋I&rsquo;m a Web Developer and aspiring Full-Stack Engineer from
-          India, crafting user-friendly designs and impactful digital
-          experiences.
+          Hi!✋I&rsquo;m a Frontend Developer and aspiring Full-Stack Engineer from
+          India, specialize in crafting pixel-perfect, responsive UIs with React.js, focused on delivering seamless user experiences. 🚀
         </h2>
       </div>
     </section>
