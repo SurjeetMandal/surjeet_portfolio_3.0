@@ -6,7 +6,7 @@ const Button = ({ primary, secondary, text_content, className, svg, onClick }) =
   return (
     <>
       {primary ? (
-        <motion.button onClick={onClick} className={`px-6 py-3 rounded-lg border-red-orange-500 gap-2 bg-red-orange-500 text-white items-center ${className}`}
+        <motion.button onClick={onClick} className={`px-6 py-2 rounded-lg border-red-orange-500 gap-2 bg-red-orange-500 text-white items-center ${className}`}
           whileTap={{scale: 0.9}}
           whileHover={{scale: 1.1}}
         >
