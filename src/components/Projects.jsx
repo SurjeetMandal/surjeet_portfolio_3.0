@@ -9,7 +9,7 @@ import { AppContext } from "../context/AppContext";
 
 const projects = [
   {
-    name: "Trade With Techack | Trading Platform",
+    name: "Trade With Techack | Freelancing Project",
     img: img6,
     details: `<span class="colorPara">A <span class="medium">comprehensive trading platform</span> designed for an experienced options trading instructor with 3+ years of expertise.  
               The platform allows users to <span class="medium">purchase online courses</span>, subscribe to <span class="medium">premium Telegram trading channels</span>,  
@@ -20,7 +20,7 @@ const projects = [
     liveLink: "https://tradewithtechack.com/",
   },
   {
-    name: "FashionHub | E-Commerce Web App",
+    name: "E-Commerce Web App | Personal Project",
     img: img3,
     details: `<span class="colorPara>A <span class="medium">modern e-commerce platform</span> designed for fashion enthusiasts,  
               featuring a <span class="medium">responsive and visually appealing UI</span>.  
@@ -32,7 +32,7 @@ const projects = [
     liveLink: "https://surjeet-simple-ecommerce-cart-site.netlify.app/",
   },
   {
-    name: "The Hype Department | Freelancer Portfolio",
+    name: "The Hype Department | Freelancing Project",
     img: img4,
     details: `<span class="colorPara">A <span class="medium">professional portfolio website</span> crafted for a freelancer to showcase their  
               <span class="medium">projects, skills, and experience</span>.  
@@ -43,7 +43,7 @@ const projects = [
     liveLink: "https://www.thehypedepartment.com/",
   },
   {
-    name: "Finsweet | Static Multi-Page Web App",
+    name: "Static Multi-Page Web App | Personal Project",
     img: img5,
     details: `<span class="colorPara">A <span class="medium">static multi-page web application</span> built to explore  
               <span class="medium">React's component-based architecture</span>.  
@@ -54,7 +54,7 @@ const projects = [
     liveLink: "https://surjeet-frontend1.netlify.app/",
   },
   {
-    name: "Quizopia | Interactive Quiz Platform",
+    name: "Interactive Quiz Platform | Personal Project",
     img: img1,
     details: `<span class="colorPara">An <span class="medium">interactive quiz application</span> designed to make learning fun and engaging.  
               Features include a <span class="medium">visually appealing UI</span> based on the 60-30-10 color rule,  
