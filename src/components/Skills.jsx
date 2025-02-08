@@ -50,7 +50,7 @@ const Skills = () => {
               {[
                 { name: "SCSS", level: "Intermediate" },
                 { name: "React JS", level: "Intermediate" },
-                { name: "Vue JS", level: "Basic" },
+                { name: "TypeScript", level: "Basic" },
                 { name: "MySQL", level: "Basic" },
               ].map((skill, index) => (
                 <motion.div key={index} className="flex gap-2" variants={itemVariants}>
